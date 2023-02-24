@@ -44,6 +44,8 @@ ldaU_mode = "Simple"
 #pseudopotential = "
 #Ni Ni.upf
 #"
+internal_pseudo_type = "nc_accuracy"
+
 Hubbard_U=
 "
 Ni 6.5 3D
