@@ -1,0 +1,9 @@
+"Mn":"""wavefunction_grid="16 16 24 """,
+"Mn":"""kpoint_mesh="21 21 14""",
+"Mn":"""potential_grid_refinement="4""",
+"Mn":"""energy_convergence_criterion = "1.0e-12"""
+# Mn uses Mn.pbe-spn-rrkjus_psl.0.3.1.UPF with a "24 24 36" grid
+pseudo_uspp=["Se","Mg","Mn","Ag","Ni","Sb","W","C","Re","Cr","I","Br","Cl","Hg","B","S","Zn","Ir"]
+high_temp = ["Mn","Cr"]
+AFM_list1 = ["Cr", "Mn"]
+
