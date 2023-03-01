@@ -1,0 +1,40 @@
+cd AFD_12th
+mpirun -n 12 ~/rmgdft/build/rmg-cpu input1 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input2 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input3 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input4 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input5 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input6 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input7 
+cd ../AFD_10th
+mpirun -n 12 ~/rmgdft/build/rmg-cpu input1 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input2 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input3 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input4 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input5 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input6 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input7 
+cd ../AFD_8th
+mpirun -n 12 ~/rmgdft/build/rmg-cpu input1 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input2 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input3 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input4 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input5 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input6 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input7 
+cd ../SFD_10th
+mpirun -n 12 ~/rmgdft/build/rmg-cpu input1 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input2 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input3 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input4 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input5 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input6 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input7 
+cd ../SFD_12th
+mpirun -n 12 ~/rmgdft/build/rmg-cpu input1 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input2 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input3 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input4 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input5 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input6 
+mpirun -n 16 ~/rmgdft/build/rmg-cpu input7 

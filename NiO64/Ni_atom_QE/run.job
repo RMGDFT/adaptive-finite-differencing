@@ -1,0 +1,7 @@
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input1 > output1
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input2 > output2
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input3 > output3
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input4 > output4
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input5 > output5
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input6 > output6
+mpirun -n 24 ~/QuantumExpresso/q-e/build/bin/pw.x <input7 > output7

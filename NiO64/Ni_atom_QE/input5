@@ -1,0 +1,40 @@
+ &control
+    calculation = 'scf'
+    restart_mode='from_scratch',
+    prefix='Ni',
+    tstress = .false.
+    tprnfor = .true.
+    pseudo_dir = '../QE'
+    outdir='.',
+    verbosity = 'high'
+ /
+ &system
+    ibrav=8,
+    celldm(1)       = 15.7622
+    celldm(2)       = 1.0
+    celldm(3)       = 1.0
+    nbnd=15   
+    nat=1,
+    ntyp      = 1,
+    ecutwfc=307.632,
+    occupations='from_input',
+    smearing='mv', degauss=0.2,
+    nspin=2,
+    starting_magnetization(1)= 2.0,
+    input_dft = 'PBE'
+ /
+ &electrons
+    mixing_beta = 0.25
+    diagonalization = 'davidson',
+    conv_thr =  1.0d-8
+ /
+OCCUPATIONS
+  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  1.0  
+  0.0  0.0  0.0  0.0  0.0
+  1.0  1.0  1.0  1.0  0.6  0.6  0.6  0.6  0.6  1.0
+  0.0  0.0  0.0  0.0  0.0
+ATOMIC_SPECIES
+ Ni   1.  Ni.upf
+ATOMIC_POSITIONS crystal
+Ni    0.000000    0.000000    0.000000
+K_POINTS {gamma}
